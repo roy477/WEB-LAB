@@ -1,0 +1,104 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>  
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Time Table</title>  
+<style>  
+body  
+{  
+font-family: Arial, sans-serif; margin: 20px; 
+} 
+Table 
+{ 
+width: 100%; border-collapse: collapse; 
+}  
+th, td  
+{  
+border: 1px solid #ddd;  
+padding: 8px; text-align: center; 
+} 
+th  
+{  
+background-color: #f2f2f2; 
+} 
+.header  
+{ 
+background-color: #4CAF50; color: white; 
+}  
+.footer 
+{ 
+background-color: #f2f2f2;  
+} 
+.lab-hour { 
+background-color: #ffeb3b; /* Yellow */  
+} 
+.elective-hour{  
+background-color: #e91e63; /* Pink */ color: white;
+} 
+.mon, .tue, .wed, .thu, .fri, .sat { 
+background-color: #f9f9f9;  
+} 
+</style> 
+</head> 
+<body> 
+<h1>Class Time Table</h1> 
+<table> 
+<thead> 
+<tr> 
+<th class="header" rowspan="2">Time</th>  
+<th class="header" colspan="6">Days of the Week</th> 
+</tr>  
+<tr> <th class="header mon">Monday</th> 
+<th class="header tue">Tuesday</th>  
+<th class="header wed">Wednesday</th>  
+<th class="header thu">Thursday</th> 
+<th class="header fri">Friday</th>  
+</tr> 
+</thead> 
+<tbody>  
+<tr> 
+<td>9:00 AM - 10:00 AM</td> 
+<td class="elective-hour">Math</td>  
+<td class="lab-hour">Physics Lab</td> 
+<td class="elective-hour">Computer Science</td> 
+<td>Free</td> <td>Free</td>  
+</tr> 
+<tr> 
+<td>10:00 AM - 11:00 AM</td>  
+<td class="elective-hour">English</td>  
+<td class="lab-hour">Chemistry Lab</td>  
+<td class="elective-hour">Biology</td>  
+<td class="elective-hour">History</td>  
+<td>Free</td> </tr>  
+<tr> 
+<td>11:00 AM - 12:00 PM</td>  
+<td class="lab-hour">Math Lab</td> 
+<td class="elective-hour">Elective 1</td>  
+<td class="lab-hour">Physics Lab</td> 
+<td class="elective-hour">Philosophy</td>  
+<td class="elective-hour">Elective 2</td> 
+</tr>  
+<tr> 
+<td>12:00 PM - 1:00 PM</td> 
+<td>Lunch</td> <td>Lunch</td> 
+<td>Lunch</td> <td>Lunch</td> 
+<td>Lunch</td> 
+</tr> 
+<tr> 
+<td>1:00 PM - 2:00 PM</td> 
+<td class="elective-hour">Sociology</td>  
+<td class="elective-hour">Geography</td> 
+<td class="lab-hour">Chemistry Lab</td>  
+<td class="lab-hour">Computer Science Lab</td>  
+<td class="elective-hour">Elective 3</td>  
+</tr>  
+</tbody>  
+<tfoot>  
+<tr> 
+<td class="footer" colspan="6">This timetable is subject to change.</td> 
+</tr> 
+</tfoot> 
+</table>  
+</body> 
+</html>
